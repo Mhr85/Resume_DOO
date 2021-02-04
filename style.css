@@ -1,0 +1,76 @@
+body {
+	margin: 0;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(-45deg, #525252, #B6BABE, #6C757D, #FBB03B);
+	background-size: 400% 400%;
+	animation: gradientBG 15s ease infinite;
+}
+
+@keyframes gradientBG {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+.logo {
+	position: absolute;
+	left: 50px;
+	top: 36px;
+	height: 50px;
+	width: 50px;
+}
+
+
+.resume-font {
+    color: #178573 !important;
+}
+
+.resume-link {
+    color: #178573;
+}
+
+.resume-link:hover {
+    color: #27debf;
+}
+
+.resume-hr {
+    background-color: #178573;
+}
+
+
+
+
+/* .container {
+	width: 100%;
+	position: absolute;
+	top: 35%;
+	text-align: center;
+}
+
+h1 {
+	font-weight: 300;
+}
+
+h3 {
+	color: #eee;
+	font-weight: 100;
+}
+
+h5 {
+	color:#eee;
+	font-weight:300;
+} */
+
+/* a,
+a:hover {
+	text-decoration: none;
+	color: black;
+} */
